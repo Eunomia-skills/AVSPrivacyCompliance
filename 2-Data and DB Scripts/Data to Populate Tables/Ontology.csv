@@ -1,1 +1,132 @@
-
+﻿personal,email address
+personal,account user info
+personal,phone
+personal,address
+personal,account details
+personal,photo
+personal,audio
+personal,video
+personal,voice
+personal,health and wellness
+personal,social media information
+personal,date of birth
+personal,name
+personal,email
+personal,birthday
+personal,age
+personal,gender
+personal,contact
+personal,profession
+personal,income
+personal,phone number
+personal,passport number
+personal,driver license number
+personal,driver license
+personal,bank account number
+personal,debit card number
+personal,credit card number
+personal,ssn
+personal,height
+personal,weight
+personal,blood group
+personal,blood pressure
+personal,blood glucose
+personal,blood Oxygen
+personal,heart rate
+personal,body temperature
+personal,sleep data
+personal,fat percentage
+personal,mass index
+personal,waist circumference
+personal,menstruation
+personal,period
+personal,medical record number
+personal,health plan beneficiary number
+personal,ethnicity
+personal,affiliation
+personal,orientation
+personal,first name
+personal,last name
+personal,full name
+personal,social security number
+personal,bank account number
+personal,account user info
+personal,salary
+personal,fitness activity information
+personal,employment information
+personal,body weight
+personal,government-issue identification information
+personal,education level
+personal,birth year
+personal,educational information
+personal,physical traits
+personal,social media account credential
+personal,social media friends
+personal,social media profile url
+personal,social media username
+personal,social media account information
+personal,social media information
+personal,credential
+personal,race
+personal,biography
+personal,profile information
+personal,lifestyle information
+personal,facebook profile information
+personal,credit history
+personal,blood glucose level
+personal,education information
+personal,philosophical belief
+personal,relationship status
+personal,political view
+personal,activity information
+personal,biometric information
+personal,genetic information
+personal,shipping information
+personal,account balance information
+personal,body mass index
+personal,emergency contact information
+personal,contact information
+personal,accelerometer information
+personal,prescription information
+personal,credit information
+personal,license number
+personal,financial account information
+personal,bank account number
+personal,driver license information
+personal,driver license number
+personal,username
+personal,person age
+personal,demographic information
+personal,person name
+personal,contact name
+personal,sexual orientation
+personal,sexual history
+personal,user information
+non-personal,router
+non-personal,sound
+non-personal,device info
+non-personal,advertising id
+non-personal,geographical location
+non-personal,payment
+non-personal,organization info
+non-personal,user patterns and usage
+non-personal,motion
+non-personal,weather
+non-personal,calendar
+non-personal,music
+non-personal,camera
+non-personal,nfc
+non-personal,sim serial number
+non-personal,text message
+non-personal,browser information
+non-personal,operating system
+non-personal,preference
+non-personal,usage information
+non-personal,ip address
+non-personal,application information
+non-personal,network information
+non-personal,internet service provider
+non-personal,location
+non-personal,city
+non-personal,state
+non-personal,zipcode
