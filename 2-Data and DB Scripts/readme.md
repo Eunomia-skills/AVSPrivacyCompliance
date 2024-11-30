@@ -1,4 +1,4 @@
-1. Using the scripts, create 7 tables.
+1. Create a database called 'AVSPrivacyCompliance'. Using the provided scripts, create 7 tables under the DB.
 
 2. Populate three tables using the csv data provided. The csv names match the table names to be populated.
 
