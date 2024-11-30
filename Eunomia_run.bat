@@ -1,5 +1,5 @@
 REM Activate the conda environment
-call C:\Users\avalon\Miniconda3\condabin\conda.bat activate venv-policheckbert
+call C:\Users\avalon\Miniconda3\condabin\conda.bat activate venv-eunomia
 
 REM Run the Python scripts in parallel
 
