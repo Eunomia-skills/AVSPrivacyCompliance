@@ -76,7 +76,7 @@ public class Test {
 
         ArrayList<ArrayList<XSSFCell>> cells = new ArrayList<>();
 
-        File myFile = new File("/skilldetective/skilldetective/ChatBot/Data/" + name + ".xlsx");
+        File myFile = new File("../Data/" + name + ".xlsx");
         FileInputStream fis = null;
 
         fis = new FileInputStream(myFile);
