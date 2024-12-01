@@ -53,10 +53,10 @@ public class S5 {
         //gets data from config file
         getConfig();
         //System.setProperty("webdriver.gecko.driver",
-        //        "D:/Security Research/Voice Assistants/Code/1-SkillDetectiveChatBot/skilldetective/skilldetective/ChatBot/Data/geckodriver.exe");
+        //        "../Data/geckodriver.exe");
         
         System.setProperty("webdriver.chrome.driver",
-                "D:/Security Research/Voice Assistants/5-Code/1-SkillDetectiveChatBot/skilldetective/skilldetective/ChatBot/Data/chromedriver.exe");
+                "../Data/chromedriver.exe");
         
         Classifier c = new Classifier(Direct);
 
@@ -154,7 +154,7 @@ public class S5 {
                  skill_name = skill_name.replaceFirst("^Open\\s+", "").trim();
                                   
                  //get the other skill details from the spreadsheet
-                 FileInputStream fis = new FileInputStream(new File("\\skilldetective\\skilldetective\\ChatBot\\Data\\skilldetails.xlsx"));
+                 FileInputStream fis = new FileInputStream(new File("..\\Data\\skilldetails.xlsx"));
                  XSSFWorkbook workbook = new XSSFWorkbook(fis);
                  XSSFSheet sheet = workbook.getSheetAt(0); //assuming using the first sheet
                  
@@ -167,7 +167,7 @@ public class S5 {
                     String skill_id = row.getCell(2).getStringCellValue();
                                    
                     
-                    File fil = new File("\\5-Code\\AVS-ComplianceAnalysis\\skillinfo.txt");
+                    File fil = new File("..\\..\\5-Code\\AVS-ComplianceAnalysis\\skillinfo.txt");
 
                     // create new buffered writer object
                     BufferedWriter writer = new BufferedWriter(new FileWriter(fil));
@@ -221,7 +221,7 @@ public class S5 {
                 
                 System.out.println(question+ "  "+ timestampquest+"..\n\n");//JA
                 //Output question to a file- JA
-                FileWriter fileWriter = new FileWriter("\\5-Code\\AVS-ComplianceAnalysis\\output.txt");
+                FileWriter fileWriter = new FileWriter("..\\..\\5-Code\\AVS-ComplianceAnalysis\\output.txt");
                 fileWriter.write(question);
                 fileWriter.close();
                 
@@ -231,7 +231,7 @@ public class S5 {
                 long maxWaitTime = 5000; // Maximum wait time in milliseconds
                 //Thread.sleep(1000);
                 
-                File response = new File("\\5-Code\\AVS-ComplianceAnalysis\\response.txt");
+                File response = new File("..\\..\\5-Code\\AVS-ComplianceAnalysis\\response.txt");
 
                 while (!response.exists() && (System.currentTimeMillis() - startTime) < maxWaitTime) {
                     try {
@@ -276,7 +276,7 @@ public class S5 {
                         times++;
                     } else {
                                                 
-                        FileWriter fileWriter2 = new FileWriter("\\5-Code\\AVS-ComplianceAnalysis\\output.txt");
+                        FileWriter fileWriter2 = new FileWriter("..\\..\\5-Code\\AVS-ComplianceAnalysis\\output.txt");
                         fileWriter2.write(question);
                         fileWriter2.close();
                 
@@ -418,7 +418,7 @@ public class S5 {
                     FileUtils.copyURLToFile(
                             new URL(link),
                             //the following path must be set to the media folder
-                            new File("/skilldetective/skilldetective/ChatBot/Data/Media/" + name + "-" + id + "-" + file++ + "." + end));
+                            new File("../Data/Media/" + name + "-" + id + "-" + file++ + "." + end));
 
                 } catch (java.io.FileNotFoundException e) {
                     System.out.println("Error file type. All is well!");
@@ -631,7 +631,7 @@ public class S5 {
 
         ArrayList<ArrayList<XSSFCell>> cells = new ArrayList<>();
 
-        File myFile = new File("/skilldetective/skilldetective/ChatBot/Data/" + name + ".xlsx");
+        File myFile = new File("../Data/" + name + ".xlsx");
         FileInputStream fis = null;
 
         fis = new FileInputStream(myFile);
@@ -718,7 +718,7 @@ public class S5 {
 
         }
 
-        try (FileOutputStream outputStream = new FileOutputStream("/skilldetective/skilldetective/ChatBot/Data/output.xlsx")) {
+        try (FileOutputStream outputStream = new FileOutputStream("../Data/output.xlsx")) {
             workbook.write(outputStream);
         }
         System.out.println("file was output");
