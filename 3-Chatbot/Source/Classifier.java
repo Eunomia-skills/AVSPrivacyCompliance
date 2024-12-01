@@ -120,7 +120,7 @@ public class Classifier {
         ArrayList<ArrayList<XSSFCell>> cells = new ArrayList<>();
 
         //This pathway must be set!!!!
-        File myFile = new File("/skilldetective/skilldetective/ChatBot/Data/Data/QClassified.xlsx");
+        File myFile = new File("../Data/Data/QClassified.xlsx");
         
         FileInputStream fis = null;
 
